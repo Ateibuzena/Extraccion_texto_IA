@@ -78,7 +78,7 @@ La factura que quieres procesar debe estar en el mismo directorio que el script 
 
 ## 📞 Contacto
 
-¿Tienes preguntas o sugerencias? No dudes en contactarme en [LinkedIn](https://www.linkedin.com/in/tuperfil) 💬
+¿Tienes preguntas o sugerencias? No dudes en contactarme en [LinkedIn](https://www.linkedin.com/in/ana-zubieta) 💬
 
 ¡Gracias por visitar mi repositorio! Espero que encuentres este proyecto interesante y útil. 🙌
 
