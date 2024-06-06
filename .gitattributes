@@ -1,0 +1,2 @@
+dist/extraccion.exe filter=lfs diff=lfs merge=lfs -text
+build/extraccion/extraccion.pkg filter=lfs diff=lfs merge=lfs -text
