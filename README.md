@@ -74,7 +74,7 @@ La factura que quieres procesar debe estar en el mismo directorio que el script 
     ```
     o
     ```bash
-    ejecutable.exe path_factura
+    ./ejecutable.exe path_factura
     ```
 
 ## 📞 Contacto
