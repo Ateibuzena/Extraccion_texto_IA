@@ -1,7 +1,6 @@
 # 📄🔍 Desafío de Extracción de Información de Facturas Eléctricas
 
 ¡Bienvenidos a mi repositorio de extracción de información de facturas eléctricas! 🚀
-(Prueba técnica para Decides)
 
 Este proyecto tiene como objetivo desarrollar una solución genérica para extraer información clave de facturas eléctricas en formato PDF, independientemente del diseño o la disposición de los campos en las diferentes facturas. 🧠💡
 
