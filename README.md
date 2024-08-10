@@ -1,87 +1,87 @@
-# 📄🔍 Desafío de Extracción de Información de Facturas Eléctricas
+# 📄🔍 Electric Invoice Information Extraction Challenge
 
-¡Bienvenidos a mi repositorio de extracción de información de facturas eléctricas! 🚀
+Welcome to my electric invoice information extraction repository! 🚀
 
-Este proyecto tiene como objetivo desarrollar una solución genérica para extraer información clave de facturas eléctricas en formato PDF, independientemente del diseño o la disposición de los campos en las diferentes facturas. 🧠💡
+This project aims to develop a generic solution for extracting key information from electric invoices in PDF format, regardless of the design or layout of fields in different invoices. 🧠💡
 
-## 📚 Pasos del Proyecto
+## 📚 Project Steps
 
-### 1. Recopilación de Recursos
+### 1. Resource Gathering
 
-- ✅ Instalación de Python en mi ordenador.
-- ✅ Descarga del dataset de entrenamiento con facturas PDF y sus correspondientes archivos JSON.
-- ✅ Selección de librerías de Python adecuadas para la extracción de texto, procesamiento de texto y aprendizaje automático.
+- ✅ Installing Python on my computer.
+- ✅ Downloading the training dataset with PDF invoices and their corresponding JSON files.
+- ✅ Selecting suitable Python libraries for text extraction, text processing, and machine learning.
 
-### 2. Preprocesamiento de Datos
+### 2. Data Preprocessing
 
-- 📥 Lectura de los archivos PDF y JSON del dataset de entrenamiento.
-- 🧹 Limpieza del texto extraído, eliminando caracteres irrelevantes y normalizando el texto.
-- 📑 Estructuración de los datos para facilitar su procesamiento.
+- 📥 Reading PDF and JSON files from the training dataset.
+- 🧹 Cleaning the extracted text by removing irrelevant characters and normalizing the text.
+- 📑 Structuring the data for easier processing.
 
-### 3. Exploración y Análisis de Datos
+### 3. Data Exploration and Analysis
 
-- 🔍 Análisis de la estructura y el contenido de las facturas PDF y JSON.
-- 📊 Identificación de patrones y características comunes, así como variaciones en los formatos de las facturas.
-- 🗂 Segmentación de los datos en diferentes grupos según sus características.
+- 🔍 Analyzing the structure and content of PDF and JSON invoices.
+- 📊 Identifying patterns and common features, as well as variations in invoice formats.
+- 🗂 Segmenting the data into different groups based on their characteristics.
 
-### 4. Definición de la Estrategia de Extracción
+### 4. Defining the Extraction Strategy
 
-- 🛠 Decisión entre un enfoque basado en reglas o un modelo de aprendizaje automático.
-  - **Enfoque basado en reglas:** Definición de reglas manuales utilizando expresiones regulares y técnicas de procesamiento del lenguaje natural.
-  - **Enfoque basado en aprendizaje automático:** Entrenamiento de un modelo adecuado y evaluación de su rendimiento.
+- 🛠 Deciding between a rule-based approach or a machine learning model.
+  - **Rule-based approach:** Defining manual rules using regular expressions and natural language processing techniques.
+  - **Machine learning approach:** Training a suitable model and evaluating its performance.
 
-### 5. Implementación de la Solución
+### 5. Implementing the Solution
 
-- 💻 Implementación del algoritmo de extracción de información.
-- 🔄 Desarrollo de la lógica para procesar cada factura PDF y almacenar la información en un formato estructurado.
-- 🚨 Manejo de errores y casos excepcionales.
+- 💻 Implementing the information extraction algorithm.
+- 🔄 Developing the logic to process each PDF invoice and store the information in a structured format.
+- 🚨 Handling errors and exceptional cases.
 
-### 6. Evaluación y Mejora
+### 6. Evaluation and Improvement
 
-- 🧪 Evaluación del rendimiento utilizando el script proporcionado para obtener el score de Levenshtein.
-- 🔄 Refinamiento de la estrategia de extracción en base a los resultados obtenidos.
-- ♻ Repetición del proceso de evaluación y mejora hasta alcanzar un score satisfactorio.
+- 🧪 Evaluating performance using the provided script to obtain the Levenshtein score.
+- 🔄 Refining the extraction strategy based on the obtained results.
+- ♻ Repeating the evaluation and improvement process until a satisfactory score is achieved.
 
-### 7. Consideraciones Adicionales
+### 7. Additional Considerations
 
-- 🌐 Aseguramiento de la generalización del método de extracción para diferentes formatos y estructuras de facturas.
-- 🛠 Utilización de técnicas de procesamiento del lenguaje natural para mejorar la precisión.
-- 📋 Implementación de mecanismos para manejar errores y casos excepcionales.
-- 📝 Documentación del código y la estrategia de extracción.
+- 🌐 Ensuring the generalization of the extraction method for different invoice formats and structures.
+- 🛠 Using natural language processing techniques to improve accuracy.
+- 📋 Implementing mechanisms to handle errors and exceptional cases.
+- 📝 Documenting the code and extraction strategy.
 
-## 🛠 Tecnologías Utilizadas
+## 🛠 Technologies Used
 
 - **Python** 🐍
 - **PyPDF2 / Poppler / pdfminer.six** 📄
 - **re / string / nltk** 🔍
 - **scikit-learn / TensorFlow** 🤖
 
-## 🚀 Cómo Empezar
+## 🚀 Getting Started
 
-1. Clona este repositorio:
+1. Clone this repository:
     ```bash
-    git clone https://github.com/tuusuario/extraccion-facturas-electricas.git
+    git clone https://github.com/yourusername/electric-invoice-extraction.git
     ```
-2. Instala las dependencias:
+2. Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-3. Ejecuta el script de extracción:
-La factura que quieres procesar debe estar en el mismo directorio que el script "ejecutable" que está en la carpeta ./dist
+3. Run the extraction script:
+The invoice you want to process must be in the same directory as the "executable" script located in the ./dist folder
     ```bash
-    ./ejecutable.exe nombre_factura.pdf
+    ./executable.exe invoice_name.pdf
     ```
-    o
+    or
     ```bash
-    ./ejecutable.exe path_factura
+    ./executable.exe invoice_path
     ```
 
-## 📞 Contacto
+## 📞 Contact
 
-¿Tienes preguntas o sugerencias? No dudes en contactarme en [LinkedIn](https://www.linkedin.com/in/ana-zubieta) 💬
+Have questions or suggestions? Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/ana-zubieta) 💬
 
-¡Gracias por visitar mi repositorio! Espero que encuentres este proyecto interesante y útil. 🙌
+Thank you for visiting my repository! I hope you find this project interesting and useful. 🙌
 
 ---
 
-⭐ **Si te gustó este proyecto, por favor dale una estrella y sígueme en LinkedIn para más contenido similar.** ⭐
+⭐ **If you liked this project, please give it a star and follow me on LinkedIn for more similar content.** ⭐
